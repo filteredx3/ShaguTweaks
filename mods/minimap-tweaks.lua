@@ -15,9 +15,10 @@ module.enable = function(self)
   GameTimeFrame:SetScript("OnShow", function() this:Hide() end)
 
   -- hide minimap zone background
-  MinimapBorderTop:Hide()
+  -- MinimapBorderTop:Hide()
   MinimapToggleButton:Hide()
-  MinimapZoneTextButton:SetPoint("CENTER", 7, 85)
+  MinimapZoneTextButton:SetPoint("CENTER", 10, 84)
+  MinimapBorderTop:SetTexture("Interface\\AddOns\\ShaguTweaks\\textures\\Minimapnocross.blp")
 
   -- hide zoom buttons and enable mousewheel
   MinimapZoomIn:Hide()
