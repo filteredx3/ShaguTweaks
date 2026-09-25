@@ -1,16 +1,16 @@
-FORK NOTES : Allows you to keep a texture behind location name with the other minimap tweaks enabled. I created this only because I didn't like how the "minimap tweaks" hid the layer underneath the location name and it made it less readable. So I made a custom textures and changed the shagutweaks code inside "mods\minimap-tweaks.lua" Here's what it looks like :
-<img src="screenshots/newmap.png" float="right" align="right">
+# ShaguTweaks (Custom Fork)
 
+> **FORK NOTES:** This fork allows you to keep a texture behind the location name while the other minimap tweaks are enabled. 
+> 
+> I created this only because I didn't like how the "minimap tweaks" hid the layer underneath the location name and made it less readable. So I made custom textures and changed the ShaguTweaks code inside `mods/minimap-tweaks.lua`.
 
+Here's what it looks like:
 
+![Minimap with custom texture](screenshots/newmap.png)
 
+---
 
-
-
-
-
-
-
+## About ShaguTweaks
 
 
 
